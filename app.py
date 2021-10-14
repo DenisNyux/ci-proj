@@ -14,6 +14,6 @@ def integral(a, b):
     r2 = i.trapeze(int(a), int(b))
     return render_template("integral.html", res1=r1, res2=r2)
 
-
+#123
 # if __name__ == "__main__":
 #     app.run(debug=True)
