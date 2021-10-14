@@ -15,5 +15,5 @@ def integral(a, b):
     return render_template("integral.html", res1=r1, res2=r2)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
