@@ -20,7 +20,7 @@ jobs:
     steps:
       - checkout # git clone repo
       - python/install-packages:
-          pkg-manager: pip3 # setting a pkg manager
+          pkg-manager: enum("pip3")# setting a pkg manager
       - run:
           name: Install Dependencies
           command: python3 install -r requirements.txt # installing requirements
