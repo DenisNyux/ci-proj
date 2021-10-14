@@ -8,11 +8,9 @@ jobs:
       - image: cimg/python:3.9.5
     steps:
       - checkout
-      - python/install-packages:
-          pkg-manager: enum("pip3")
       - run:
           name: Install Dependencies
-          command: python3 install -r requirements.txt
+          command: pip3 install -r requirements.txt
       -run:
           name: Testing Results
           command: python3 counting/tests.py
