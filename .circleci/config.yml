@@ -8,6 +8,8 @@ jobs:
       - image: cimg/python:3.9.5
     steps:
       - checkout
+      - python/install-packages:
+          pkg-manager: pip
       - run:
           name: Install Dependencies
           command: pip3 install -r requirements.txt
