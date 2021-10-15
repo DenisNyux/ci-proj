@@ -7,7 +7,7 @@ jobs:
     docker:
       - image: cimg/python:3.9.5
     steps:
-      -checkout
+      - checkout
       - python/install-packages:
           pkg-manager: pip
       - run:
