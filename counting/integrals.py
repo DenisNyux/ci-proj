@@ -32,5 +32,6 @@ class IntegralMethods:
 
 
 # i = IntegralMethods()
+# 123
 
 # print(round(i.parabola(-10, 10), 5), round(i.trapeze(-10, 10), 5), type(i.parabola(-10, 10)))
